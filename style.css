@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/UbuntuMono-Regular.eot);
+  src: local(''),
+    url('fonts/UbuntuMono-Regular.woff2') format('woff2'),
+    url('fonts/UbuntuMono-Regular.woff') format('woff'),
+    url('fonts/UbuntuMono-Regular.ttf') format('truetype');
+}
+
+* {
+  font-family: 'Ubuntu', monospace;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+h1 img {
+  vertical-align: middle;
+  -webkit-animation: breathing 5s ease-out infinite normal;
+  animation: breathing 5s ease-out infinite normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  width: 400px; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+li {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ff000d;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+/* breathing animation */
+@-webkit-keyframes breathing {
+0% {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+25% {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+60% {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+100% {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+}
+
+@keyframes breathing {
+0% {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+25% {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+60% {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+100% {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+}
+
+
+
+
+
