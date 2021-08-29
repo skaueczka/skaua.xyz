@@ -61,6 +61,10 @@ footer {
   padding: 20px;
 }
 
+.yellow{
+  color: rgb(255, 0, 0);
+}
+
 /* breathing animation */
 @-webkit-keyframes breathing {
 0% {
