@@ -15,7 +15,40 @@
 
     <section id="about">
         <h2>Skała</h2>
-        <h4>Some changes are coming...</h4>
+    </section>
+
+    <section id="linki">
+
+      <video id="zawadiaka" width="320" height="240" controls autoplay muted playsinline>
+        <source src="files/PAPIEŻ ZAWADIAKA (REMAKE).mp4#t=22" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+
+      <button onclick="toggleMute();">
+        Odmutuj papieża polaka
+      </button>
+
+      <script>
+          function toggleMute() {
+
+          var video=document.getElementById("zawadiaka")
+
+          if(video.muted){
+	            video.muted = false;
+            } else {
+	            video.muted = true;
+          }
+
+          }
+
+      </script>
+
+      <li>
+
+        <ul><a href="stash.html">> linki</a></ul>
+
+      </li>
+
     </section>
   </body>
 </html>
