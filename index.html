@@ -19,34 +19,20 @@
 
     <section id="linki">
 
-      <video id="zawadiaka" controls autoplay muted playsinline loop>
-        <source src="files/ultrazoptymalizowany_gwalciciel_x265.mp4#t=22" type="video/mp4">
-        Nie pooglądasz sobie wariacie.
-      </video>
-
-      <button onclick="toggleMute();">
-        Odmutuj papieża polaka
-      </button>
-
+       <video width="250" height="250" id="randomvid" controls autoplay muted playsinline loop>
+        <source src="" type="video/mp4">
+      </video>  
       <script>
-          function toggleMute() {
-
-          let video=document.getElementById("zawadiaka")
-
-          if(video.muted){
-	            video.muted = false;
-            } else {
-	            video.muted = true;
+          window.onload = function(event) {
+              
+            document.getElementById("randomvid").src = "files/" + Math.floor(Math.random() * 5 + 1).toString() + ".mp4";
+      
           }
-
-          }
-
       </script>
 
       <li>
 
         <ul><a href="stash.html">> linki</a></ul>
-        <ul><a href="humor.html">> humor.exe</a></ul>
 
       </li>
 
