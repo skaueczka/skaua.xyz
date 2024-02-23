@@ -67,6 +67,11 @@ button {
   margin-right: auto; 
 }
 
+p {
+  font-size: 1.05rem;
+}
+
+
 #intro {
   text-align: center;
   margin-left: auto; 
