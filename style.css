@@ -69,6 +69,8 @@ button {
 
 #intro {
   text-align: center;
+  margin-left: auto; 
+	margin-right: auto; 
 }
 
 #yellow {
