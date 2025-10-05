@@ -90,6 +90,12 @@ p {
   color: rgb(255, 0, 0);
 }
 
+.container {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
 /* breathing animation */
 @-webkit-keyframes breathing {
 0% {
